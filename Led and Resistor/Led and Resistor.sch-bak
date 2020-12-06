@@ -1,0 +1,139 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "LED and Resistor"
+Date "2020-12-05"
+Rev "1.0"
+Comp "CatCuber"
+Comment1 "Gonzales Loayza Pool Diego"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR01
+U 1 1 5FCC3DB9
+P 5050 4650
+F 0 "#PWR01" H 5050 4400 50  0001 C CNN
+F 1 "GND" H 5055 4477 50  0000 C CNN
+F 2 "" H 5050 4650 50  0001 C CNN
+F 3 "" H 5050 4650 50  0001 C CNN
+	1    5050 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4350 5050 4500
+Wire Notes Line
+	4800 4900 4800 3800
+Wire Notes Line
+	4800 3800 6700 3800
+Wire Notes Line
+	6700 3800 6700 4900
+Wire Notes Line
+	6700 4900 4800 4900
+Text Notes 4800 3750 0    98   ~ 0
+A simple LED Resistor\nschematic
+Text Label 5100 4350 0    50   ~ 0
+GND
+Text Label 6300 4350 0    50   ~ 0
+5v
+Wire Wire Line
+	6500 4350 6250 4350
+$Comp
+L Device:LED D1
+U 1 1 5FCC30EE
+P 5500 4350
+F 0 "D1" H 5493 4567 50  0000 C CNN
+F 1 "LED" H 5493 4476 50  0000 C CNN
+F 2 "LED_THT:LED_D8.0mm" H 5500 4350 50  0001 C CNN
+F 3 "~" H 5500 4350 50  0001 C CNN
+	1    5500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FCC38A5
+P 6000 4350
+F 0 "R1" V 5793 4350 50  0000 C CNN
+F 1 "R" V 5884 4350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5930 4350 50  0001 C CNN
+F 3 "~" H 6000 4350 50  0001 C CNN
+	1    6000 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 4350 5650 4350
+Wire Wire Line
+	5350 4350 5050 4350
+Wire Wire Line
+	6500 4100 6500 4350
+$Comp
+L power:+5V #PWR02
+U 1 1 5FCC4272
+P 6500 4100
+F 0 "#PWR02" H 6500 3950 50  0001 C CNN
+F 1 "+5V" H 6515 4273 50  0000 C CNN
+F 2 "" H 6500 4100 50  0001 C CNN
+F 3 "" H 6500 4100 50  0001 C CNN
+	1    6500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FCC6BE6
+P 6500 4450
+F 0 "#FLG0101" H 6500 4525 50  0001 C CNN
+F 1 "PWR_FLAG" H 6500 4623 50  0000 C CNN
+F 2 "" H 6500 4450 50  0001 C CNN
+F 3 "~" H 6500 4450 50  0001 C CNN
+	1    6500 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FCC77DD
+P 5050 4200
+F 0 "#FLG0102" H 5050 4275 50  0001 C CNN
+F 1 "PWR_FLAG" H 5050 4373 50  0000 C CNN
+F 2 "" H 5050 4200 50  0001 C CNN
+F 3 "~" H 5050 4200 50  0001 C CNN
+	1    5050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4200 5050 4350
+Connection ~ 5050 4350
+Wire Wire Line
+	6500 4450 6500 4350
+Connection ~ 6500 4350
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5FCC7500
+P 5550 4800
+F 0 "J1" V 5704 4612 50  0000 R CNN
+F 1 "Conn_01x02_Male" V 5613 4612 50  0000 R CNN
+F 2 "" H 5550 4800 50  0001 C CNN
+F 3 "~" H 5550 4800 50  0001 C CNN
+	1    5550 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 4600 5650 4500
+Wire Wire Line
+	5650 4500 6250 4500
+Wire Wire Line
+	6250 4500 6250 4350
+Connection ~ 6250 4350
+Wire Wire Line
+	6250 4350 6150 4350
+Wire Wire Line
+	5550 4600 5550 4500
+Wire Wire Line
+	5550 4500 5050 4500
+Connection ~ 5050 4500
+Wire Wire Line
+	5050 4500 5050 4650
+$EndSCHEMATC

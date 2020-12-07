@@ -19,7 +19,7 @@ U 1 1 5FCE4553
 P 6450 3500
 F 0 "J1" H 7050 4900 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 7050 4800 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 6450 3500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 6450 3500 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 6450 3500 50  0001 C CNN
 	1    6450 3500
 	1    0    0    -1  
@@ -40,7 +40,7 @@ L Device:R R1
 U 1 1 5FCE6A84
 P 3550 3400
 F 0 "R1" H 3620 3446 50  0000 L CNN
-F 1 "330" H 3620 3355 50  0000 L CNN
+F 1 "10k" H 3620 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3480 3400 50  0001 C CNN
 F 3 "~" H 3550 3400 50  0001 C CNN
 	1    3550 3400

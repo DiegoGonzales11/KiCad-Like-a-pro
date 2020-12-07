@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "D:\\software\\kiCad\\Kicad like a pro\\Raspberry Pi HAT\\Raspberry Pi HAT.sch")
-    (date "12/7/2020 1:10:01 AM")
+    (date "12/7/2020 12:13:48 PM")
     (tool "Eeschema (5.1.8)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref J1)
       (value Raspberry_Pi_2_3)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical)
       (datasheet https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf)
       (libsource (lib Connector) (part Raspberry_Pi_2_3) (description "expansion header for Raspberry Pi 2 & 3"))
       (sheetpath (names /) (tstamps /))
@@ -30,7 +30,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5FCE6624))
     (comp (ref R1)
-      (value 330)
+      (value 10k)
       (footprint Resistor_SMD:R_0805_2012Metric)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))

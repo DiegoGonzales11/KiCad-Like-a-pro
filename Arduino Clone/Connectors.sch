@@ -14,47 +14,47 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x09 J?
+L Connector_Generic:Conn_01x09 J1
 U 1 1 5FCF0074
-P 3850 3050
-F 0 "J?" H 3930 3092 50  0000 L CNN
-F 1 "Conn_01x09" H 3930 3001 50  0000 L CNN
-F 2 "" H 3850 3050 50  0001 C CNN
-F 3 "~" H 3850 3050 50  0001 C CNN
-	1    3850 3050
+P 4900 3200
+F 0 "J1" H 4980 3242 50  0000 L CNN
+F 1 "Conn_01x09" H 4980 3151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 4900 3200 50  0001 C CNN
+F 3 "~" H 4900 3200 50  0001 C CNN
+	1    4900 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J3
 U 1 1 5FCF0AC0
-P 5000 2850
-F 0 "J?" H 5080 2842 50  0000 L CNN
-F 1 "Conn_01x04" H 5080 2751 50  0000 L CNN
-F 2 "" H 5000 2850 50  0001 C CNN
-F 3 "~" H 5000 2850 50  0001 C CNN
-	1    5000 2850
+P 6350 3100
+F 0 "J3" H 6430 3092 50  0000 L CNN
+F 1 "Conn_01x04" H 6430 3001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6350 3100 50  0001 C CNN
+F 3 "~" H 6350 3100 50  0001 C CNN
+	1    6350 3100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
+L Connector_Generic:Conn_02x03_Odd_Even J2
 U 1 1 5FCF0EFC
-P 4900 3550
-F 0 "J?" H 4950 3867 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 4950 3776 50  0000 C CNN
-F 2 "" H 4900 3550 50  0001 C CNN
-F 3 "~" H 4900 3550 50  0001 C CNN
-	1    4900 3550
+P 4900 4350
+F 0 "J2" H 4950 4667 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 4950 4576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4900 4350 50  0001 C CNN
+F 3 "~" H 4900 4350 50  0001 C CNN
+	1    4900 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J4
 U 1 1 5FCF1C90
-P 6100 2800
-F 0 "J?" H 6180 2792 50  0000 L CNN
-F 1 "Conn_01x04" H 6180 2701 50  0000 L CNN
-F 2 "" H 6100 2800 50  0001 C CNN
-F 3 "~" H 6100 2800 50  0001 C CNN
-	1    6100 2800
+P 6350 4300
+F 0 "J4" H 6430 4292 50  0000 L CNN
+F 1 "Conn_01x04" H 6430 4201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6350 4300 50  0001 C CNN
+F 3 "~" H 6350 4300 50  0001 C CNN
+	1    6350 4300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

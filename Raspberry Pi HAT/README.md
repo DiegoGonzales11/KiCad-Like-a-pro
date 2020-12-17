@@ -7,3 +7,7 @@
 # Back
 
 ![image](https://github.com/DiegoGonzales11/KiCad-Like-a-pro/blob/master/Raspberry%20Pi%20HAT/Raspberry%20Pi%20HAT%20f3.jpg)
+
+# PCB Layout
+
+![image](https://github.com/DiegoGonzales11/KiCad-Like-a-pro/blob/master/Raspberry%20Pi%20HAT/Raspberry%20Pi%20HAT%20f4.jpg)

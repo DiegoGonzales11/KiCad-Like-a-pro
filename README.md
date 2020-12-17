@@ -20,6 +20,8 @@ Sponsored by [**CATcuber**](https://www.youtube.com/channel/UCh29PvIbZ5TsXWqsWTp
 
 - LED and Resistor PCB [(click here)](https://github.com/DiegoGonzales11/KiCad-Like-a-pro/tree/master/Led%20and%20Resistor)
 
+![image](https://github.com/DiegoGonzales11/KiCad-Like-a-pro/blob/master/Led%20and%20Resistor/foto1.png)
+
 ## Author
 
 My name is **Diego Gonzales**, I'm student of Electronics Engineering and I really love everything about technology.
